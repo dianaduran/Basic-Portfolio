@@ -50,7 +50,7 @@ header h1{
     font-size: 40px;
     font-weight: bold;
     background: #4aaaa5;
-    padding: 10px;
+    padding: 15px;
     color: white;
 }
 
@@ -83,10 +83,10 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 21px;
+    padding: 26px;
     text-decoration: none;
 	color: #777777;
-	font-size: 18px;
+	font-size: 12.5px;
         
 }
 .classBorder{
@@ -139,8 +139,49 @@ footer{
     position: absolute;
     bottom: 0;
     width: 960px;
-    height: 11%;
+    height: 9%;
     background: #666666;
     text-align: center;
     border-top: 5px #4aaaa5 solid !important;
 }
+
+
+/*style contact*/
+
+input[type="text"]{
+    width: 100%;
+    margin: 11px auto;
+    padding: 8px
+}
+
+input[type="submit"]{
+    margin: 3px auto;
+    background: #4aaaa5;
+    border: none;
+    height: 38px;
+    width: 90px;
+    font-size: 20px;
+    color: white;
+}
+
+textarea{
+    width: 100%;
+    height: 127px;
+    margin: 11px auto;
+
+}
+
+form{
+    padding: 10px;
+   
+}
+
+form p{
+    font-weight: bold;
+
+}
+
+
+
+
+
