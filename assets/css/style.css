@@ -1,0 +1,146 @@
+body{
+    color: #777777;
+    background: #8080801a;
+}
+
+.container{
+	margin: auto;
+    width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   } 
+ 
+
+
+p{
+   font-size: 20px;
+   text-align: justify;
+   display:inline;
+}
+
+.divP{
+   
+    margin-left: 6px;
+    line-height: 1.8;
+}
+
+.iconP{
+        margin-left: 315px;
+}
+
+.iconA{
+    width: 100%;
+    text-align: center;
+}
+
+a img{
+    width: 50px;
+}
+	
+
+header{
+background: #ffffff;
+border-bottom: 3px #cccccc solid !important;
+height: 11%;
+width: 100%;
+}
+
+header h1{
+	float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    font-weight: bold;
+    background: #4aaaa5;
+    padding: 10px;
+    color: white;
+}
+
+.classH1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 9px;
+    color: #4aaaa5;
+    }
+
+.classH1_Connect{
+	font-size: 22px;
+    text-align: center;
+    padding-top: 31px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+    }
+
+li {
+    float: right;
+
+    }
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+	color: #777777;
+	font-size: 18px;
+        
+}
+.classBorder{
+	border-left: 1px solid #cccccc;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+hr{
+	border: 1px #80808038 solid !important;
+	width: 99%;
+    margin-bottom: 31px;
+}
+
+.articleL{
+	float: left;
+	background: white;
+	margin: 18px 0px;
+	width: 650px;
+    padding: 10px;
+}
+
+.articleR{
+	
+	float: right;
+	background: white;
+	margin-top: 18px;
+    margin-left: 10px;
+	width: 270px;
+    padding-bottom: 18px;
+   }
+
+.picMy{
+	height: 50%;
+    width: 40%;
+    border-radius: 12px;
+    float:left;
+    margin-right: 12px;
+}
+
+
+footer p{
+    color:  #9c9ba6;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+    height: 11%;
+    background: #666666;
+    text-align: center;
+    border-top: 5px #4aaaa5 solid !important;
+}
