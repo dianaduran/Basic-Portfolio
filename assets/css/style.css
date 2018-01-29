@@ -1,12 +1,16 @@
 body{
     color: #777777;
-    background: #8080801a;
+    background-color: #ede6da;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+    /*height: auto;*/
 }
 
 .container{
 	margin: auto;
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    min-height: 100%
    } 
  
 
@@ -15,6 +19,10 @@ p{
    font-size: 20px;
    text-align: justify;
    display:inline;
+}
+
+b { 
+    font-weight: bold !important;
 }
 
 .divP{
@@ -131,8 +139,9 @@ hr{
 }
 
 
-footer p{
+h3{
     color:  #9c9ba6;
+    padding-top: 25px !important;
 }
 
 footer{
@@ -168,6 +177,8 @@ textarea{
     width: 100%;
     height: 127px;
     margin: 11px auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 8px
 
 }
 
@@ -181,7 +192,36 @@ form p{
 
 }
 
+.imgProject{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px
+}
 
+.aImgProject1{
+    width: inherit;
+    height: 5%;
+    background: #4aaaa5;
+    position: absolute;
+    bottom: 236px;
+    top: 350px;
+    border: none;
+    font-size: 20px;
+    color: #777777;
+}
+
+.aImgProject2{
+    width: inherit;
+    height: 5%;
+    background: #4aaaa5;
+    position: absolute;
+    bottom: 236px;
+    top: 559px;
+    border: none;
+    font-size: 20px;
+    color: #777777;;
+}
 
 
 
